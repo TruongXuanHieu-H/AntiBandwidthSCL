@@ -40,7 +40,7 @@ namespace SATABP
     AntibandwidthEncoder();
     virtual ~AntibandwidthEncoder();
 
-    EncoderType enc_choice = duplex;
+    EncoderType enc_choice = ladder;
     EncoderStrategy enc_strategy = from_lb;
 
     bool verbose = true;
